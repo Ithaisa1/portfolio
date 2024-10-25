@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100;0,200;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cookies.css">
+    <title>Portfolio /ISG/ Desarrolladora Web</title>
+</head>
+<body>
+    <!-- Menú encabezado -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ithaisa</a>
+            </div>
+            <nav id="nav" class="">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <!-- <li><a href="/login_minijuego.html" onclick="seleccionar()">JUEGO</a></li>
+                    <li><a href="/otros.html" onclick="seleccionar()">OTROS</a></li> -->
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Sección inicio -->
+    <section id="inicio" class="inicio">
+        <div class="content-banner">
+            <div class="container-img">
+                <img src="./img/fotoPrincipal-removebg-preview.png" alt="Foto de Ithaisa Sánchez González">
+            </div>
+            <h1>Ithaisa Sánchez González</h1>
+            <h2>Desarrolladora Web</h2>
+            <div class="redes">
+                <a href="https://github.com/Ithaisa1" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ithaisa-sg/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.behance.net/IthaisaSanchez" target="_blank"><i class="fa-brands fa-behance"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section id="sobremi" class="sobremi">
+        <div class="container-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Ithaisa Sánchez González</span>. Trabajadora flexible, organizada y motivada con ganas de aplicar las habilidades adquiridas en diversos entornos. Buscando nuevas oportunidades.</p>
+            <div class="fila">
+                <!-- Aquí van los datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li><strong>Teléfono: </strong> 672 07-53-40</li>
+                        <li><strong>Email:</strong> ithaisasanchezgonzalez@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="container-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Diseño</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="/cv_desarrollo_web_(2).pdf" download="cv_desarrollo_web_(2).pdf">
+                    Descargar CV
+                    <i class="fa-solid fa-download"></i>
+                </a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Sección Skills -->
+    <section id="skills" class="skills">
+        <div class="container-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Habilidades técnicas -->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>57%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Tailwind CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Base de Datos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Illustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Indesign</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Corel Draw</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Habilidades Profesionales -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Disponibilidad horaria</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Alto aprendizaje</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Curriculum-->
+
+    <section id="curriculum" class="curriculum">
+        <div class="container-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izq">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>CFGS Desarrollo de aplicaciones web</h4>
+                        <span class="instituto">IES ANA LUISA BENITEZ</span>
+                        <span class="fecha">2022-2024</span>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Omnis eligendi, ipsum minima adipisci obcaecati delectus quod
+                        ipsam ratione repellendus officiis praesentium ipsa laborum?
+                        Animi, aspernatur. Fuga perspiciatis vero natus quod.</p> -->
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>CFGM Sistemas Microinformáticos y redes</h4>
+                        <span class="instituto">IES ANA LUISA BENITEZ</span>
+                        <span class="fecha">2019-2021</span>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Omnis eligendi, ipsum minima adipisci obcaecati delectus quod
+                        ipsam ratione repellendus officiis praesentium ipsa laborum?
+                        Animi, aspernatur. Fuga perspiciatis vero natus quod.</p> -->
+
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <h3>Certificados</h3>
+                    <div class="item izq">
+                        <h4>Diseño de productos gráficos | nvl3 </h4>
+                        <span class="instituto">A.S.A.J.A</span>
+                        <span class="fecha">2022</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="item izq">
+                        <h4>Diseño de calderería y estructuras metálicas |nvl 3</h4>
+                        <span class="instituto">LICEO 2000</span>
+                        <span class="fecha">Abril 2021</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div> -->
+
+                    <div class="item izq">
+                        <h4>Desarrollo de aplicaciones con tecnología web</h4>
+                        <span class="instituto">ICSE</span>
+                        <span class="fecha">2019</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+
+                <div class="col drcha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item dcha">
+                        <h4>Desarrolladora web</h4>
+                        <span class="instituto">WEB LAS PALMAS</span>
+                        <span class="fecha">2024</span>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Omnis eligendi, ipsum minima adipisci obcaecati delectus quod
+                        ipsam ratione repellendus officiis praesentium ipsa laborum?
+                        Animi, aspernatur. Fuga perspiciatis vero natus quod.</p> -->
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item dcha">
+                        <h4>Técnico en informátoca</h4>
+                        <span class="instituto">IES ANA LUISA BENITEZ</span>
+                        <span class="fecha">2021</span>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Omnis eligendi, ipsum minima adipisci obcaecati delectus quod
+                        ipsam ratione repellendus officiis praesentium ipsa laborum?
+                        Animi, aspernatur. Fuga perspiciatis vero natus quod.</p> -->
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item dcha">
+                        <h4>Diseñadora gráfica</h4>
+                        <span class="instituto">Gráficas Abemak S.L.</span>
+                        <span class="fecha">2022</span>
+                        <!-- <p> <ul>
+                            <li>Creación de la página web de la empresa.</li>
+                            <li> Diseño de la página web.</li>
+                            <li>Mantenimiento de páginas webs.</li>
+                        </ul> 
+                        </p> -->
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="item dcha">
+                        <h4>Diseño de calderería y estructuras metálicas |nvl 3</h4>
+                        <span class="instituto">Extructuras Benito S.L.</span>
+                        <span class="fecha">2021</span>
+                        <p>
+                            <ul>
+                            <li>Diseño de estructuras metálicas</li>
+                            <li>Diseño con SOLID de piezas</li>
+                            <li>Diseño con AUTOCAD de piezas metálicas</li>
+                            </ul>
+                        </p>
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div> -->
+
+                    <div class="item dcha">
+                        <h4>Diseñadora web </h4>
+                        <span class="instituto">Wonka producciones S.L.</span>
+                        <span class="fecha">2019</span>
+                        <!-- <p>
+                            <ul>
+                            <li>Impresión digitak</li>
+                            <li>Troquelado</li>
+                            <li>Diseño de tarjetas de visita</li>
+                            <li>Diseño y maquetación de revistas</li>
+                            <li>Manipulación de planchas</li>
+                            <li>Flyers</li>
+                            </ul>
+                        </p> -->
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--Seccion Portfolio -->
+
+    <section id="portfolio" class="portfolio">
+        <div class="container-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./img/4_columnas_grid.jpg" alt="">
+                    <div class="overlay">
+                        <h3><a href="https://github.com/Ithaisa/Sanchez_Gonzalez_Ithaisa_Proyecto_Four_card_feature_section" target="_blank" >Diseño en 4 columnas responsive</a></h3>
+                            <p></p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./img/proyecto_freelance.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Freelancer</h3>
+                            <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./img/Order_sumary.jpg" alt="">
+                    <div class="overlay">
+                        <h3><a href="https://github.com/Ithaisa/Order_Summary" target="_blank">Diseño  Order Summary</a></h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./img/redes_sociales_efecto_cristal.jpg" alt="">
+                    <div class="overlay">
+                        <h3><a href="https://github.com/Ithaisa/efecto_cristal" target="_blank">Diseño redes sociales efecto cristal</a></h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./img/news-homepage-responsive.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de pagina principal nav-responsive</h3>
+                            <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./img/blog-cafe-responsive.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de pagina blog café</h3>
+                            <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./img/3_COLUMNAS_basico.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de 3 columnas responsive</h3>
+                            <p>Fotografia</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="./img/social_master.png" alt="">
+                    <div class="overlay">
+                        <h3><a href="https://github.com/Ithaisa/social_master/blob/main/index.html" target="_blank">Social master</a></h3>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO -->
+
+    <section id="contacto" class="contacto">
+        <div class="container-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario de contacto-->
+            <div class="col">
+                <form id="form">
+                    <div class="field">
+                      <label for="from_name" style="font-family: Righteous;">Nombre</label>
+                      <input type="text" name="from_name" id="from_name" required>
+                      <div id="telefonoMensaje" class="mensaje"></div>
+                    </div>
+                    <div class="field">
+                      <label for="message" style="font-family: Righteous;">Mensaje</label>
+                      <input type="text" name="message" id="message" required>
+                      <div id="emailMensaje" class="mensaje"></div>
+                    </div>
+                    <div class="field">
+                      <label for="email_id" style="font-family: Righteous;">Email</label>
+                      <input type="text" name="email_id" id="email_id" required>
+                      <div id="cargoMensaje" class="mensaje"></div>
+                    </div>
+                
+                    <input type="submit" id="button" value="Enviar mensaje" >
+                  </form>
+                  
+            </div>
+
+                <!-- MAPA -->
+                <div class="col">
+                    <img src="./img/GC_LasPalmasdeGC.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i>
+                            Las Palmas de GC</li>
+                            <li><i class="fa-solid fa-mobile-screen"></i>
+                            Llama al: 672 07-53-40</li>
+                            <li><i class="fa-solid fa-envelope"></i>
+                            Email: ithaisasanchezgonzalez@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+        <div class="redes">
+           
+                <a href="https://github.com/Ithaisa1" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ithaisa-sg/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.behance.net/IthaisaSanchez" target="_blank"><i class="fa-brands fa-behance"></i></a>
+
+    <!-- AVISO DE COOKIES -->
+
+                <div id="aviso-cookies" class="aviso-cookies">
+                    <p>Este sitio web utiliza cookies para mejorar la experiencia del usuario. 
+                       Al continuar navegando, aceptas nuestro uso de cookies.</p>
+                    <button id="acept" onclick="aceptarCookies()">Aceptar</button>
+                </div>
+        </div>
+
+        <a href="./aviso-cookies.html" id="">Aviso de cookies</a>
+        <a href="./politica-privacidad.html">Politica de privacidad</a>
+
+    </footer>
+    <script src="./js/aviso-cookies.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/geolocalizacion.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript"> emailjs.init('9VWCzDCjBcOOMyDUX') </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+.aviso-cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+
+.aviso-cookies p {
+    margin: 0;
+    display: inline;
+}
+
+.aviso-cookies button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.aviso-cookies button:hover {
+    background-color: #45a049;
+}
+
+.enlace{
+    text-decoration: none;
+    color: white;
+    border: 1px solid #ccc;
+}

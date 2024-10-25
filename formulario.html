@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <title>Formulario Validado</title>
+</head>
+<body>
+    <a href="./index.html">Regresar</a>
+    <div class="centrar">
+        <form id="miFormulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <span id="nombreMensaje" class="mensaje"></span>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <span id="emailMensaje" class="mensaje"></span>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            <span id="mensajeMensaje" class="mensaje"></span>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="./js/formulario.js"></script>
+</body>
+</html>

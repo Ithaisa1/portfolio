@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/preferencias.css">
+    <title>Preferencias y Saludo</title>
+    <script src="./js/preferencias.js"></script>
+</head>
+<body>
+
+    <a href="./index.html">Regresar</a>
+
+    <section id="preferencias">
+        <h2>Preferencias de Usuario</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre"><br>
+
+        <label for="fondo">Color de fondo:</label>
+        <input type="color" id="fondo"><br>
+
+        <label for="letra">Color de letra:</label>
+        <input type="color" id="letra"><br>
+
+        <button onclick="guardarPreferencias()">Guardar Preferencias</button>
+    </section>
+
+    <section id="saludo">
+        <h2 id="saludoTexto"></h2>
+        <button onclick="borrarPreferencias()">Borrar Preferencias</button>
+    </section>
+</body>
+</html>

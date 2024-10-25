@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/reproductor.css" />
+    <title>Reproductor de video</title>
+    <!-- S-Tech04 | www.youtube.com/STech04 -->
+</head>
+
+<body>
+    <section>
+        <h2 class="title"></h2>
+        <div class="container">
+            <div id="video_player">
+                <video controls id="main-Video" src="">
+                    <!-- Múltiples fuentes para compatibilidad de códecs -->
+                    <source src="/videos/introduccion-al-curso-clase0-curso-de-javascript-gratis-by-programee.mp4" type="video/mp4">
+                    <source src="/videos/introduccion-al-curso-clase0-curso-de-javascript-gratis-by-programee.webm" type="video/webm">
+                    <source src="/videos/introduccion-al-curso-clase0-curso-de-javascript-gratis-by-programee.ogv" type="video/ogg">
+                    
+                </video>
+                <!-- Barra de progreso personalizada -->
+                <div class="custom-progress-bar" id="custom-progress-bar" onclick="seek(event)">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+            <div class="playlistBx">
+                <div class="header">
+                    <div class="row">
+                        <span class="AllLessons"></span>
+                    </div>
+                </div>
+                <ul class="playlist" id="playlist"></ul>
+            </div>
+        </div>
+    </section>
+    <script src="./js/reproductor.js"></script>
+</body>
+</html>
